@@ -1,0 +1,767 @@
+[
+ {
+  "id": "E01",
+  "type": "answerable",
+  "question": "I'm 65. What interest rate will I get on an 18-month fixed deposit?",
+  "expected": [
+   "sample_1|S1|",
+   "sample_1|Q001"
+  ],
+  "facts": [
+   "8.00%"
+  ]
+ },
+ {
+  "id": "E02",
+  "type": "answerable",
+  "question": "What is the smallest amount I can put into a fixed deposit?",
+  "expected": [
+   "sample_1|S1|"
+  ],
+  "facts": [
+   "1,000"
+  ]
+ },
+ {
+  "id": "E03",
+  "type": "answerable",
+  "question": "How much penalty do I pay if I break my FD before maturity?",
+  "expected": [
+   "sample_1|S2|",
+   "sample_1|Q002"
+  ],
+  "facts": [
+   "1.00%"
+  ]
+ },
+ {
+  "id": "E04",
+  "type": "answerable",
+  "question": "If I close my FD within a week of booking, how much interest do I earn?",
+  "expected": [
+   "sample_1|S2|",
+   "sample_1|Q002"
+  ],
+  "facts": [
+   "zero|no interest"
+  ]
+ },
+ {
+  "id": "E05",
+  "type": "answerable",
+  "question": "What TDS rate applies if my PAN is not linked to my account?",
+  "expected": [
+   "sample_1|S3|"
+  ],
+  "facts": [
+   "20%"
+  ]
+ },
+ {
+  "id": "E06",
+  "type": "answerable",
+  "question": "Above what yearly interest income is TDS deducted for senior citizens?",
+  "expected": [
+   "sample_1|S3|"
+  ],
+  "facts": [
+   "50,000"
+  ]
+ },
+ {
+  "id": "E07",
+  "type": "answerable",
+  "question": "What's the minimum monthly amount to start a mutual fund SIP?",
+  "expected": [
+   "sample_1|S4|",
+   "sample_1|Q004"
+  ],
+  "facts": [
+   "₹100|rs.100|rs100|100permonth"
+  ]
+ },
+ {
+  "id": "E08",
+  "type": "answerable",
+  "question": "Can I trade Bitcoin or Ethereum on FinBase?",
+  "expected": [
+   "sample_1|S22|",
+   "sample_1|Q006"
+  ],
+  "facts": [
+   "not"
+  ]
+ },
+ {
+  "id": "E09",
+  "type": "answerable",
+  "question": "Can I get a loan against my farmland?",
+  "expected": [
+   "sample_1|S22|",
+   "sample_1|Q007"
+  ],
+  "facts": [
+   "not"
+  ]
+ },
+ {
+  "id": "E10",
+  "type": "answerable",
+  "question": "Do you provide daily intraday stock tips?",
+  "expected": [
+   "sample_1|S22|",
+   "sample_1|Q008"
+  ],
+  "facts": [
+   "not"
+  ]
+ },
+ {
+  "id": "E11",
+  "type": "answerable",
+  "question": "What's the maximum I can invest in a single FD booking?",
+  "expected": [
+   "sample_1|S1|",
+   "sample_1|Q009"
+  ],
+  "facts": [
+   "50,00,000"
+  ]
+ },
+ {
+  "id": "E12",
+  "type": "answerable",
+  "question": "Are my FinBase deposits insured, and up to how much?",
+  "expected": [
+   "sample_1|Q010"
+  ],
+  "facts": [
+   "5,00,000"
+  ]
+ },
+ {
+  "id": "E13",
+  "type": "answerable",
+  "question": "What is the smallest purchase I can make in digital gold?",
+  "expected": [
+   "sample_1|S5|",
+   "sample_1|Q005"
+  ],
+  "facts": [
+   "₹10"
+  ]
+ },
+ {
+  "id": "E14",
+  "type": "answerable",
+  "question": "How much can I transfer through UPI in one day?",
+  "expected": [
+   "sample_2|S1|",
+   "sample_2|Q004"
+  ],
+  "facts": [
+   "1,00,000"
+  ]
+ },
+ {
+  "id": "E15",
+  "type": "answerable",
+  "question": "I changed my UPI PIN today. What's the most I can send in the next 24 hours?",
+  "expected": [
+   "sample_2|S1|",
+   "sample_2|Q003"
+  ],
+  "facts": [
+   "5,000"
+  ]
+ },
+ {
+  "id": "E16",
+  "type": "answerable",
+  "question": "By when must I report an unauthorised debit?",
+  "expected": [
+   "sample_2|S3|",
+   "sample_2|Q005"
+  ],
+  "facts": [
+   "3 calendar days|3 days"
+  ]
+ },
+ {
+  "id": "E17",
+  "type": "answerable",
+  "question": "How quickly do I get temporary credit for a disputed merchant transaction?",
+  "expected": [
+   "sample_2|S3|",
+   "sample_2|Q006"
+  ],
+  "facts": [
+   "7 working days|7 business days"
+  ]
+ },
+ {
+  "id": "E18",
+  "type": "answerable",
+  "question": "Is there any charge for sending money through UPI?",
+  "expected": [
+   "sample_2|Q009"
+  ],
+  "facts": [
+   "not|no fee|free|no charge"
+  ]
+ },
+ {
+  "id": "E19",
+  "type": "answerable",
+  "question": "What does the U69 error mean?",
+  "expected": [
+   "sample_2|Q008",
+   "sample_2|S4|"
+  ],
+  "facts": [
+   "timeout"
+  ]
+ },
+ {
+  "id": "E20",
+  "type": "multi",
+  "question": "My UPI payment failed with U69 but the money left my account. When is it refunded, and what do I get if it's late?",
+  "expected": [
+   "sample_2|S2|",
+   "sample_2|Q001",
+   "sample_2|Q002",
+   "sample_2|Q008"
+  ],
+  "facts": [
+   "t+2",
+   "100 per calendar day|100 per day|₹100"
+  ]
+ },
+ {
+  "id": "E21",
+  "type": "multi",
+  "question": "What compensation do I get if ATM cash was not dispensed and the refund is delayed?",
+  "expected": [
+   "sample_2|S21|"
+  ],
+  "facts": [
+   "t+5"
+  ]
+ },
+ {
+  "id": "E22",
+  "type": "multi",
+  "question": "What does the Luxe card cost per year and how can I get the fee waived?",
+  "expected": [
+   "sample_3|S1|1.2",
+   "sample_3|Q002"
+  ],
+  "facts": [
+   "999",
+   "1,20,000"
+  ]
+ },
+ {
+  "id": "E23",
+  "type": "answerable",
+  "question": "How many free airport lounge visits does the Luxe card include?",
+  "expected": [
+   "sample_3|S1|1.2",
+   "sample_3|Q004"
+  ],
+  "facts": [
+   "quarter"
+  ]
+ },
+ {
+  "id": "E24",
+  "type": "answerable",
+  "question": "How do you calculate the minimum amount due on my card?",
+  "expected": [
+   "sample_3|S3|3.2",
+   "sample_3|Q008"
+  ],
+  "facts": [
+   "5%",
+   "250"
+  ]
+ },
+ {
+  "id": "E25",
+  "type": "answerable",
+  "question": "What interest do I pay if I don't clear my card bill in full?",
+  "expected": [
+   "sample_3|S3|3.3",
+   "sample_3|Q005"
+  ],
+  "facts": [
+   "3.49%"
+  ]
+ },
+ {
+  "id": "E26",
+  "type": "answerable",
+  "question": "What does it cost to withdraw cash from an ATM using the credit card?",
+  "expected": [
+   "sample_3|S21|",
+   "sample_3|Q009"
+  ],
+  "facts": [
+   "2.5%",
+   "300"
+  ]
+ },
+ {
+  "id": "E27",
+  "type": "answerable",
+  "question": "Does the Neo card have a yearly fee?",
+  "expected": [
+   "sample_3|S1|1.1",
+   "sample_3|Q003"
+  ],
+  "facts": [
+   "free"
+  ]
+ },
+ {
+  "id": "E28",
+  "type": "answerable",
+  "question": "How can I block my card right away if I lose it?",
+  "expected": [
+   "sample_3|Q007"
+  ],
+  "facts": [
+   "controls"
+  ]
+ },
+ {
+  "id": "E29",
+  "type": "answerable",
+  "question": "How often is my credit limit considered for an increase?",
+  "expected": [
+   "sample_3|S2|",
+   "sample_3|Q010"
+  ],
+  "facts": [
+   "6 months"
+  ]
+ },
+ {
+  "id": "E30",
+  "type": "multi",
+  "question": "How do the Luxe and Metal cards compare on foreign currency markup?",
+  "expected": [
+   "sample_3|S1|1.2",
+   "sample_3|S1|1.3",
+   "sample_3|Q001",
+   "sample_3|Q006"
+  ],
+  "facts": [
+   "1.50%",
+   "1.00%"
+  ]
+ },
+ {
+  "id": "E31",
+  "type": "unanswerable",
+  "question": "How do I redeem my credit card reward points?",
+  "expected": [],
+  "facts": []
+ },
+ {
+  "id": "E32",
+  "type": "unanswerable",
+  "question": "Can I get a home loan from FinBase?",
+  "expected": [],
+  "facts": []
+ },
+ {
+  "id": "E33",
+  "type": "unanswerable",
+  "question": "What is the capital of France?",
+  "expected": [],
+  "facts": []
+ },
+ {
+  "id": "E34",
+  "type": "unanswerable",
+  "question": "Who is the CEO of FinBase?",
+  "expected": [],
+  "facts": []
+ },
+ {
+  "id": "E35",
+  "type": "unanswerable",
+  "question": "Does FinBase offer travel insurance?",
+  "expected": [],
+  "facts": []
+ },
+ {
+  "id": "E36",
+  "type": "answerable",
+  "question": "Whats the minimum balance I need to keep in a FinBase Digital Savings Account?",
+  "expected": [
+   "sample_4|Q001",
+   "sample_4|S1|"
+  ],
+  "facts": [],
+  "original_question": "What is the minimum balance required for a FinBase Digital Savings Account?"
+ },
+ {
+  "id": "E37",
+  "type": "answerable",
+  "question": "what interest rate will i get for keeping 5 lakhs in my account",
+  "expected": [
+   "sample_4|Q002",
+   "sample_4|S2|"
+  ],
+  "facts": [
+   "₹1,00,000",
+   "3.50%"
+  ],
+  "original_question": "What interest rate do I get if my account balance is ₹5,00,000?"
+ },
+ {
+  "id": "E38",
+  "type": "answerable",
+  "question": "What’s the highest interest rate you guys offer on savings accounts?",
+  "expected": [
+   "sample_4|Q003",
+   "sample_4|S2|"
+  ],
+  "facts": [
+   "₹10,00,000",
+   "7.00%"
+  ],
+  "original_question": "What is the maximum interest rate offered on savings accounts?"
+ },
+ {
+  "id": "E39",
+  "type": "answerable",
+  "question": "How many free atm withdrawals do I get a month",
+  "expected": [
+   "sample_4|Q004",
+   "sample_4|S3|"
+  ],
+  "facts": [
+   "5 free"
+  ],
+  "original_question": "How many free ATM withdrawals are available each month?"
+ },
+ {
+  "id": "E40",
+  "type": "answerable",
+  "question": "Are there any charges for IMPS or NEFT transfers?",
+  "expected": [
+   "sample_4|Q005",
+   "sample_4|S3|"
+  ],
+  "facts": [
+   "100%"
+  ],
+  "original_question": "Are IMPS or NEFT fund transfers chargeable?"
+ },
+ {
+  "id": "E41",
+  "type": "answerable",
+  "question": "What's the daily limit for UPI payments?",
+  "expected": [
+   "sample_4|Q006",
+   "sample_4|S3|"
+  ],
+  "facts": [
+   "₹1,00,000"
+  ],
+  "original_question": "What is the daily transaction limit for UPI payments?"
+ },
+ {
+  "id": "E42",
+  "type": "answerable",
+  "question": "When do I get my savings account interest?",
+  "expected": [
+   "sample_4|Q007",
+   "sample_4|S2|"
+  ],
+  "facts": [],
+  "original_question": "When is savings account interest credited?"
+ },
+ {
+  "id": "E43",
+  "type": "answerable",
+  "question": "How much does the virtual debit card cost?",
+  "expected": [
+   "sample_4|Q008"
+  ],
+  "facts": [
+   "100%"
+  ],
+  "original_question": "What is the cost of the virtual debit card?"
+ },
+ {
+  "id": "E44",
+  "type": "answerable",
+  "question": "How do I get a physical debit card?",
+  "expected": [
+   "sample_4|Q009"
+  ],
+  "facts": [
+   "₹199"
+  ],
+  "original_question": "Can I request a physical debit card?"
+ },
+ {
+  "id": "E45",
+  "type": "answerable",
+  "question": "will i get charged a fee if i close my savings account?",
+  "expected": [
+   "sample_4|Q010"
+  ],
+  "facts": [],
+  "original_question": "Is there any fee for closing my savings account?"
+ },
+ {
+  "id": "E46",
+  "type": "answerable",
+  "question": "how much is the foreclosure fee if I pay off my personal loan early after 18 months?",
+  "expected": [
+   "sample_5|Q001",
+   "sample_5|S4|4.2"
+  ],
+  "facts": [
+   "3%",
+   "18%"
+  ],
+  "original_question": "What is the foreclosure charge if I close my personal loan in 18 months?"
+ },
+ {
+  "id": "E47",
+  "type": "answerable",
+  "question": "How much is the prepayment penalty if I pay off my personal loan early after 26 months?",
+  "expected": [
+   "sample_5|Q002",
+   "sample_5|S4|4.2"
+  ],
+  "facts": [
+   "1.5%",
+   "18%"
+  ],
+  "original_question": "What is the foreclosure charge if I close my personal loan after 26 months?"
+ },
+ {
+  "id": "E48",
+  "type": "answerable",
+  "question": "Can I pay off my personal loan early? I've only had it for 3 months.",
+  "expected": [
+   "sample_5|Q003",
+   "sample_5|S4|4.2"
+  ],
+  "facts": [],
+  "original_question": "Can I close my personal loan within 3 months of getting it?"
+ },
+ {
+  "id": "E49",
+  "type": "answerable",
+  "question": "What's the maximum part payment I can make without getting charged a fee?",
+  "expected": [
+   "sample_5|Q004",
+   "sample_5|S4|4.1"
+  ],
+  "facts": [
+   "25%"
+  ],
+  "original_question": "How much part-prepayment can I make without paying any fee?"
+ },
+ {
+  "id": "E50",
+  "type": "answerable",
+  "question": "What happens if my EMI bounces because I don't have enough balance in my account?",
+  "expected": [
+   "sample_5|Q005",
+   "sample_5|S5|5.2"
+  ],
+  "facts": [
+   "₹500",
+   "2%"
+  ],
+  "original_question": "What happens if my monthly EMI bounces due to insufficient funds?"
+ },
+ {
+  "id": "E51",
+  "type": "answerable",
+  "question": "what's the minimum salary needed to get a personal loan?",
+  "expected": [
+   "sample_5|Q006",
+   "sample_5|S2|2.2"
+  ],
+  "facts": [
+   "₹25,000"
+  ],
+  "original_question": "What is the minimum monthly income to qualify for a salaried personal loan?"
+ },
+ {
+  "id": "E52",
+  "type": "answerable",
+  "question": "What credit score do I need to get a personal loan with FinBase?",
+  "expected": [
+   "sample_5|Q007",
+   "sample_5|S2|2.3"
+  ],
+  "facts": [],
+  "original_question": "What is the minimum credit score required by FinBase for personal loans?"
+ },
+ {
+  "id": "E53",
+  "type": "answerable",
+  "question": "how much is the max personal loan I can get from Finbase",
+  "expected": [
+   "sample_5|Q008",
+   "sample_5|S3|"
+  ],
+  "facts": [
+   "₹15,00,000"
+  ],
+  "original_question": "What is the maximum personal loan amount available at FinBase?"
+ },
+ {
+  "id": "E54",
+  "type": "answerable",
+  "question": "How long do I have to pay back the loan?",
+  "expected": [
+   "sample_5|Q009",
+   "sample_5|S3|"
+  ],
+  "facts": [],
+  "original_question": "What are the available loan repayment tenures?"
+ },
+ {
+  "id": "E55",
+  "type": "answerable",
+  "question": "How much is the processing fee for a loan?",
+  "expected": [
+   "sample_5|Q010",
+   "sample_5|S4|4.2"
+  ],
+  "facts": [
+   "1.5%",
+   "18%"
+  ],
+  "original_question": "What processing fee is charged on loan approval?"
+ },
+ {
+  "id": "E56",
+  "type": "answerable",
+  "question": "What do I need to keep ready for my Video KYC?",
+  "expected": [
+   "sample_6|Q001",
+   "sample_6|S3|"
+  ],
+  "facts": [],
+  "original_question": "What documents are required to complete Video KYC verification?"
+ },
+ {
+  "id": "E57",
+  "type": "answerable",
+  "question": "When are the Video KYC agents available?",
+  "expected": [
+   "sample_6|Q002",
+   "sample_6|S3|"
+  ],
+  "facts": [],
+  "original_question": "What are the operating hours for Video KYC agents?"
+ },
+ {
+  "id": "E58",
+  "type": "answerable",
+  "question": "How long before my account goes inactive?",
+  "expected": [
+   "sample_6|Q003",
+   "sample_6|S4|"
+  ],
+  "facts": [],
+  "original_question": "When does an account become dormant due to inactivity?"
+ },
+ {
+  "id": "E59",
+  "type": "answerable",
+  "question": "Am I liable for anything if I report third-party fraud within 3 days of the alert?",
+  "expected": [
+   "sample_6|Q004",
+   "sample_6|S5|"
+  ],
+  "facts": [
+   "100%"
+  ],
+  "original_question": "What is the customer liability policy if fraud is reported within 3 days?"
+ },
+ {
+  "id": "E60",
+  "type": "answerable",
+  "question": "What's the emergency number to report fraud or freeze my card?",
+  "expected": [
+   "sample_6|Q005",
+   "sample_6|S6|"
+  ],
+  "facts": [],
+  "original_question": "What is the emergency helpline number to report fraud or freeze my cards?"
+ },
+ {
+  "id": "E61",
+  "type": "answerable",
+  "question": "What documents are accepted for KYC verification?",
+  "expected": [
+   "sample_6|Q006",
+   "sample_6|S2|"
+  ],
+  "facts": [],
+  "original_question": "What Officially Valid Documents (OVD) are accepted for KYC?"
+ },
+ {
+  "id": "E62",
+  "type": "answerable",
+  "question": "what's the max transaction limit for a minimum kyc account?",
+  "expected": [
+   "sample_6|Q007",
+   "sample_6|S1|"
+  ],
+  "facts": [
+   "₹10,000",
+   "₹1,00,000"
+  ],
+  "original_question": "What is the transaction limit on a Minimum KYC account?"
+ },
+ {
+  "id": "E63",
+  "type": "answerable",
+  "question": "Can I use a soft copy/scan of my PAN card for Video KYC?",
+  "expected": [
+   "sample_6|Q008",
+   "sample_6|S3|"
+  ],
+  "facts": [],
+  "original_question": "Can I complete Video KYC using a scanned soft copy of my PAN card?"
+ },
+ {
+  "id": "E64",
+  "type": "answerable",
+  "question": "How do I reopen my inactive bank account?",
+  "expected": [
+   "sample_6|Q009",
+   "sample_6|S4|"
+  ],
+  "facts": [],
+  "original_question": "How can I reactivate my dormant bank account?"
+ },
+ {
+  "id": "E65",
+  "type": "answerable",
+  "question": "When do I have to turn on 2FA?",
+  "expected": [
+   "sample_6|Q010",
+   "sample_6|S7|"
+  ],
+  "facts": [
+   "₹2,000"
+  ],
+  "original_question": "When is Two-Factor Authentication (2FA) mandatory?"
+ }
+]
